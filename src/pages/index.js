@@ -15,7 +15,9 @@ export default function Home({product}) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <h1>SERVER SIDE</h1>
       <Card data={product}/>
+      <h1>CLIENT SIDE</h1>
       <CardClientSide/>
     </>
   )
